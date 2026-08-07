@@ -1,0 +1,9 @@
+## C# Output
+To see the program result we can use WriteLine() and Write() methods.
+
+### WriteLine()
+After printing all things in brackets, it'll automatically add a new line.
+
+### Write()
+The only difference with WriteLine() is it won't jump to next line.
+

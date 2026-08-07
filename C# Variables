@@ -1,0 +1,50 @@
+## C# Variables
+The variaables are used for storing data. In C# there are many types of variables:
+- int
+- double
+- char
+- string
+- bool
+
+### How to create a variable
+use the syntax as showing below:
+```
+type variableName = value;
+```
+For example:
+```
+int a = 5;
+```
+The value type must matches the type you defined.
+You can also declare a variable without assigning a value, and assign it later.
+```
+int a;
+a = 5
+```
+
+### Constants
+you can use the `const` keyword to create a constant:
+```
+const int a = 5
+```
+Make sure you assign a value for `const` variable while defining it.
+
+### Multiple variables
+If you want to define multiple variable of same type at the same time, use comma-seperated list:
+```
+int a = 3, y = 10, z = 4;
+```
+or
+```
+int a, y, x;
+a = 3;
+y = 10;
+z = 4;
+```
+
+### identifer naming rules
+- Names can contain letter, digits and the underscore character
+- Names must begin with a letter or underscore
+- Names should start with a lowercase letter, and cannot contain whitespace
+- Names are case-sensitive
+- Reserved words cannot be used as identifer 

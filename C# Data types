@@ -1,0 +1,25 @@
+## C# Data type
+Here are normal data types in C#:
+- int  ->  4 bytes
+- long  ->  8 bytes
+- float  ->  4 bytes (6 to 7 decimal digits)
+- double  ->  8 bytes (15 decimal digits)
+- bool  ->  1 bytes
+- char  ->  2 bytes
+- string  ->  2 bytes per character
+
+when use `long` `float` and `double`, make sure you add `L` `F` `D` at the end of value.
+```
+long a = 12345678L;
+float b = 1.234F;
+double c = 1.2345678D;
+```
+
+### scientific number
+A floating point number can also be a scientific number using `e` or `E`
+```
+float a = 12e4  //output: 120000
+```
+
+
+

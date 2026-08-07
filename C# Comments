@@ -1,0 +1,8 @@
+## C# Comments
+
+### Single-line comments
+Start and end with two forward slashes `//`.
+All the code inside the `//` will be ignored during the execution.
+
+### Multi-line comments
+Start with `/*` and end with `*/`. 
