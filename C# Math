@@ -1,0 +1,9 @@
+## C# Math
+here are many common methods of math class
+```C#
+Math.Max(x, y) // return the max value
+Math.Min(x, y) // return the min value
+Math.Sqrt(x) // return the square root of x
+Math.Abs(x) // return the absolute value of x
+Math.Round(x) // return the nearest whole number of x
+``` 

@@ -1,0 +1,26 @@
+## C# Type casting
+In C#, there are two types of casting:
+- implicit casting
+- explicit casting
+
+### implicit casting
+implicit casting is automatical casting. It coverts a smaller type to a larger type size, which means:
+    char -> int -> long -> float -> double
+
+### explicit casting
+explicit casting need manually operation. It converts a larger type to a smaler type size, which means:
+    double -> float -> long -> int -> char
+
+The explicit casting is like:
+double myDouble = 9.78;
+int myInt = (int) myDouble;
+
+### Type conversion methods
+here are some built-in methods for conversion, such as:
+```
+Convert.ToBoolean()
+Convert.ToDouble()
+Convert.ToString()
+Convert.ToInt32()
+Convert.ToInt64()
+```

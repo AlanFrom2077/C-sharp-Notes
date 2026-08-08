@@ -1,0 +1,7 @@
+## C# User Input
+just like the `Console.WriteLine()`, there is another method called `Console.ReadLine()` to get user input.
+
+### Console.ReadLine()
+the `Console.ReadLine()` method returns a string. so that when you use it, you have to use Convert.To methods.
+
+

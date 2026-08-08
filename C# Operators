@@ -1,0 +1,43 @@
+## C# Operators
+### Arithmetic operators
+```
+(+) addition
+(-) subtraction
+(*) Multiplication
+(/) Division
+(%) Mod
+(++) Increment
+(--) Decrement
+```
+
+### Assignment operators
+```C#
+=
++=
+-=
+*=
+/=
+%=
+&=
+|=
+^=
+>>=
+<<=
+```
+
+### Comparsion operators
+```
+==
+!=
+>
+<
+>=
+<=
+```
+
+### Logical operators
+```
+&&&
+||
+!
+```
