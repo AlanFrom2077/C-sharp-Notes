@@ -1,0 +1,20 @@
+## C# Strings
+
+### String methods
+```C#
+VariableName.Length // return the length of the string
+VariableName.ToUpper() // converts string to uppercase
+VariableName.ToLower() // converts string to lowercase
+string.Concat(a, b) // concate string a and b
+VariableName.IndexOf(target) // return the position(index) of first target
+``` 
+
+### Special characters
+```
+\'  ->  single quote
+\"  ->  double quote
+\\  ->  backslash
+\n  ->  new line
+\t  ->  tab
+\b  ->  backspace
+```
