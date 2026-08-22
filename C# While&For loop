@@ -1,0 +1,44 @@
+## while loop
+just like other programing language, c# has while and for loop either
+syntax belike:
+```C#
+while(condition){
+
+}
+```
+
+## do-while loop
+the syntax of do-while loop is like:
+```C#
+do{
+    statement;
+}
+while(condition)
+```
+From the skeleton, it's easy to understand what the do statement does in the do-while loop.
+When the code block is executed, it will run the statement first, then check the condition of while to determine whether continues the loop or not.
+
+## for loop
+the syntax belike:
+```C#
+for(initialization; condition; incrementation/decrementation){
+    statement;
+}
+```
+
+## for-each loop
+the for loop has another style, the for-each loop.
+the syntax looks like:
+```C#
+foreach(type variableName in arrayName){
+    statement;
+}
+```
+the for-each loop is usually used for iterating something like array.
+here is an example:
+```C#
+string[] cars = {"A", "B", "C"};
+foreach(string i in cars){
+    Console.WriteLine(i);
+} //it will iterate all the elements of the array cars
+```

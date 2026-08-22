@@ -1,0 +1,43 @@
+## if-else statements
+```C#
+if(condition){
+
+}
+else if(condition){
+
+}
+else{
+
+}
+```
+
+## ternary operator
+it can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements
+Syntax:
+```
+variable = (condition) ? expressionTrue : expressionFalse
+```
+
+For example:
+```C#
+double temp = 25;
+string result = (temp <= 25) ? "good temp" : "bad temp";
+Console.WriteLine(result) // if temp <= 25, outputs good temo, else outputs bad temp.
+```
+
+## switch statements
+use the switch statement to select one of many code blocks to be executed
+this is the skeleton of the switch statement:
+```C#
+switch(object){
+    case condition1:
+        statement;
+        break; // break keyword is used for breaking out of the switch statement
+    case condition2:
+        statement;
+        break; 
+    default:  // default is used for the case when there's no case can be matched
+        statement;
+        break;
+}
+```

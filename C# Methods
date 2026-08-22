@@ -1,0 +1,42 @@
+## Methods
+this is the syntax of declaring a method:
+```C#
+accessIdentifier static returnValue methodName(para){
+    statiement;
+} 
+```
+
+## default parameter
+c# method allows user to define the default value like this:
+```C#
+static void HelloWrold(int a = 5){
+    ...
+}
+```
+
+## Named arguments
+when executing the method, user can send arguments with `key: value` syntax:
+```C#
+static void HelloWrold(int a, int b){
+    ...
+}
+
+static void Main(String[] args){
+    HelloWorld(a: 1, b: 2)
+}
+
+```
+
+## method overloading
+with the method overloading, multiple methods can have the same name but different parameters:
+```C#
+static void Print(String a){
+    Console.WriteLine(a);
+}
+static void Print(int a){
+    Console.WriteLine(a);
+}
+static void Print(double a){
+    Consoel.WriteLine(a);
+}
+```

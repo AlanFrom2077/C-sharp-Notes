@@ -1,0 +1,10 @@
+## declare an array
+there are four methods to declare an anrray, they are:
+```C#
+string[] cars = new string[4];
+string[] cars = new string[4]{"A", "B", "C", "D"};
+string[] cars = new string[]{"A", "B", "C", "D"};
+string[] cars = {"A", "B", "D", "C"};
+```
+just like array in java, array in C# also has the array.Length 
+
